@@ -1,0 +1,22 @@
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#0b1220;color:#e5ecff}
+header{padding:16px 20px;border-bottom:1px solid #1b2540;background:#0f1830}
+h1{margin:0 0 6px;font-size:20px}
+.note{opacity:.8}
+main{padding:20px;max-width:1100px;margin:0 auto}
+.add-form, .accounts{background:#0f1830;border:1px solid #1b2540;border-radius:14px;padding:16px;margin-bottom:16px}
+.add-form form{display:flex;gap:8px;flex-wrap:wrap}
+.add-form input{background:#0b1220;border:1px solid #1b2540;color:#e5ecff;border-radius:10px;padding:10px;flex:1;min-width:180px}
+.add-form button{padding:10px 14px;border-radius:10px;background:#3a6df0;border:none;color:white;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{background:#0b1220;border:1px solid #1b2540;border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.badge{padding:4px 8px;border-radius:999px;font-size:12px;border:1px solid #1b2540}
+.badge.online{background:#12351a}
+.badge.queue{background:#2a2142}
+.progress{height:8px;background:#1b2540;border-radius:999px;overflow:hidden}
+.progress>div{height:100%;background:#3a6df0;width:0%}
+small{opacity:.8}
+.controls{display:flex;gap:6px;flex-wrap:wrap}
+button.secondary{background:#1b2540}
+input.level{width:90px}
